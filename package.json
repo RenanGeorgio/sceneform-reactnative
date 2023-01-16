@@ -27,9 +27,8 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "pods": "pod-install --quiet",
+    "bootstrap": "yarn && yarn pods"
   },
   "keywords": [
     "react-native",
@@ -143,7 +142,6 @@
     ]
   },
   "directories": {
-    "example": "example",
     "lib": "lib"
   },
   "dependencies": {
