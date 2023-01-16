@@ -118,7 +118,7 @@ class SceneformView extends React.Component {
 
 SceneformView.propTypes = {
   ...View.propTypes,
-    viewMode:                       PropTypes.oneOf(['host', 'resolve']),
+   viewMode:                        PropTypes.bool,
    onAnchorHost:                    PropTypes.func,
    onAnchorResolve:                 PropTypes.func,
    onSessionCreate:                 PropTypes.func,

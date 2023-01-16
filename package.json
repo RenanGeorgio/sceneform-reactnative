@@ -1,6 +1,6 @@
 {
-  "name": "@sceneview/react-native-sceneform",
-  "version": "0.2.0",
+  "name": "@renangeorgio/react-native-sceneform",
+  "version": "0.2.1",
   "description": "Sceneform for React Native",
   "main": "lib\\commonjs\\index.js",
   "module": "lib\\module\\index.js",
@@ -38,14 +38,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doranteseduardo/react-native-sceneform.git"
+    "url": "git+https://github.com/RenanGeorgio/react-native-sceneform.git"
   },
-  "author": "Eduardo Dorantes <eduardo.dorantes.07@gmail.com> (https://github.com/doranteseduardo)",
+  "author": "Renan Georgio <renangeorgio@gmail.com> (https://github.com/RenanGeorgio)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doranteseduardo/react-native-sceneform/issues"
+    "url": "https://github.com/RenanGeorgio/react-native-sceneform/issues"
   },
-  "homepage": "https://github.com/doranteseduardo/react-native-sceneform#readme",
+  "homepage": "https://github.com/RenanGeorgio/react-native-sceneform#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
